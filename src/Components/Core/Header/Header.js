@@ -1,4 +1,4 @@
-import { Content, Navbar, Button, Image } from "rbx";
+import { Content, Navbar, Button } from "rbx";
 import "./Header.css";
 
 
