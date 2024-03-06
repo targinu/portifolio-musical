@@ -1,0 +1,24 @@
+.box:hover {
+  background-color: #08080b;
+}
+
+.box:hover .titulo {
+  color: white;
+}
+
+.titulo-container {
+  display: flex;
+  align-items: center;
+}
+
+.titulo {
+  text-wrap: wrap;
+  text-align: center;
+  color: black;
+}
+
+@media (max-width: 1200px) {
+  .titulo {
+    font-size: small;
+  }
+}

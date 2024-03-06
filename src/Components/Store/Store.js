@@ -1,6 +1,6 @@
 import "./Store.css";
 
-function Store() {
+function Store({beatStoreLink}) {
   return (
     <div class="store">
       <iframe
@@ -8,7 +8,7 @@ function Store() {
         src="https://player.beatstars.com/?storeId=100389"
         width="100%"
         height="800"
-        style={{ maxWidth: "1024px" }}
+        style={{ maxWidth: "1600px" }}
       ></iframe>{" "}
     </div>
   );

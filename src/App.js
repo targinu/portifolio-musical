@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import "./App.css"
 
 import "rbx/index.css";
 import { Content } from "rbx";
@@ -10,9 +11,11 @@ import Tracklist from "./Components/Tracklist/Tracklist";
 function App() {
   return (
     <Content>
-      <Header></Header>
-      <Store></Store>
-      <Tracklist></Tracklist>
+      <div class="bg">
+        <Header></Header>
+        <Store></Store>
+        <Tracklist></Tracklist>
+      </div>
     </Content>
   );
 }
@@ -20,4 +23,4 @@ function App() {
 const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
 
-export default App
+export default App;
