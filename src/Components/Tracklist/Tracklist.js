@@ -1,11 +1,11 @@
 import Frame from "../Frame/Frame";
-import { Column, Notification } from "rbx";
+import { Column } from "rbx";
 import "./Tracklist.css";
 
 function Tracklist() {
   return (
     <div class="cards">
-      <Column.Group vcentered multiline breakpoint="mobile">
+      <Column.Group vcentered multiline>
         {[
           <Frame
             class="titulo"
