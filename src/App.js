@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import ReactDOM from "react-dom";
+
+import "rbx/index.css";
+import { Content } from "rbx";
+import Header from "./Components/Core/Header/Header";
+import Frame from "./Components/Frame/Frame";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Content>
+      <Header></Header>
+    </Content>
   );
 }
 
-export default App;
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);
+
+export default App

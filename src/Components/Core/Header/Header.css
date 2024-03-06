@@ -1,0 +1,16 @@
+.header{
+  background-color: black;
+}
+
+.logo {
+  background-image: url(../../../assets/imgs/icone.png);
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+}
+
+.link{
+    font-style: none;
+    text-decoration: none;
+    color: white;
+}
