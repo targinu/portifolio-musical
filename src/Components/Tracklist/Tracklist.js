@@ -1,5 +1,5 @@
 import Frame from "../Frame/Frame";
-import { Column, Title } from "rbx";
+import { Column } from "rbx";
 import "./Tracklist.css";
 
 function Tracklist() {

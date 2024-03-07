@@ -6,6 +6,7 @@ import "rbx/index.css";
 import { Content } from "rbx";
 import Header from "./Components/Core/Header/Header";
 import Body from "./Components/Body/Body";
+import PageFooter from "./Components/Core/Footer/PageFooter";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <div class="bg">
         <Header></Header>
         <Body></Body>
+        <PageFooter></PageFooter>
       </div>
     </Content>
   );

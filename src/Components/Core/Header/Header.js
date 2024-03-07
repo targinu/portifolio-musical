@@ -1,6 +1,7 @@
 import { Content, Navbar, Button } from "rbx";
 import "./Header.css";
 
+
 function Header() {
   return (
     <Content>
@@ -13,7 +14,6 @@ function Header() {
         </Navbar.Brand>
         <Navbar.Menu>
           <Navbar.Segment align="start">
-            <Navbar.Item>Home</Navbar.Item>
           </Navbar.Segment>
 
           <Navbar.Segment align="end">

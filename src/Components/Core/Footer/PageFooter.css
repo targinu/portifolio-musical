@@ -1,0 +1,22 @@
+.footer{
+    background-color: black;
+}
+
+.footer-title{
+    text-align: left;
+}
+
+.footer-text{
+    text-align: left;
+    color: white;
+}
+
+.second-col{
+    width: 50%;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
