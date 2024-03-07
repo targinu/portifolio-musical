@@ -32,6 +32,30 @@
     height: 40%;
 }
 
+.button:hover{
+  background-color: #08080b ;
+}
+
+.button:hover a{
+  color: white;
+}
+
+
+
+/*
+
+.button:hover{
+  background-color: #08080b;
+}
+
+
+
+a:hover{
+  color: white;
+}
+
+*/
+
 .yt-col2{
     flex-direction:row;
     width: 50%;

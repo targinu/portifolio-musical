@@ -22,7 +22,6 @@ function Youtube() {
               </Icon>
               <span>
                 <a
-                  style={{ color: "black" }}
                   href="https://www.youtube.com/channel/UCRWRFsuyHeex9TcwK3us49A?sub_confirmation=1"
                   target="_blank"
                   rel="noopener noreferrer"
