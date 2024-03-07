@@ -1,0 +1,45 @@
+.yt-body {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  height: 50vh;
+}
+
+.content figure {
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+}
+
+
+.yt-col1{
+    width: 20%;
+    margin: 0 auto;
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.yt-col1-texts{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.yt-pfp {
+    border-radius: 50%;
+    height: 40%;
+}
+
+.yt-col2{
+    flex-direction:row;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.yt-col2 iframe {
+    width: 100%;
+    height: 100%;
+  }

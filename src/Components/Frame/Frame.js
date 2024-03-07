@@ -4,7 +4,7 @@ import "./Frame.css";
 function Frame({ title, listenLink, imageUrl }) {
   return (
     <Content>
-      <a href={listenLink}>
+      <a href={listenLink} target="_blank" rel="noopener noreferrer">
         <Box>
           <Media class="titulo-container">
             <Media.Item align="left">
@@ -16,7 +16,12 @@ function Frame({ title, listenLink, imageUrl }) {
               <Content>
                 <p class="titulo">
                   <strong class="titulo">
-                    <a href={listenLink} class="titulo">
+                    <a
+                      href={listenLink}
+                      class="titulo"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       {title}
                     </a>
                   </strong>
